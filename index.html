@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/styles.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <h1>Simulador Planetas</h1>
+    <div id="space">
+        <div id="ball"></div>
+    </div>
+
+    <div id="planet">
+        <h1 id="gravedad">Gravedad</h1>
+    </div>
+    <button type="button" class="button" id="mercurio" onclick="color('#8C8C8C', 1.85, '3.7 m/s²')">Mercurio</button>
+    <button type="button" class="button" id="venus" onclick="color('#900092', 4, '8.87 m/s²')">Venus</button>
+    <button type="button" class="button" id="tierra" onclick="color('#2E6C03', 5, '9.8 m/s²')">Tierra</button>
+    <button type="button" class="button" id="marte" onclick="color('#C85514', 1.85, '3.71 m/s²')">Marte</button>
+    <button type="button" class="button" id="jupiter" onclick="color('#AF7AB5', 12.65, '24.79 m/s²')">Jupiter</button>
+    <button type="button" class="button" id="saturno" onclick="color('#DCC393', 5.3, '10.44 m/s²')">Saturno</button>
+    <button type="button" class="button" id="urano" onclick="color('#7CD4D8', 4, '8.69 m/s²')">Urano</button>
+    <button type="button" class="button" id="neptuno" onclick="color('#4A61E6', 5.65, '11.15 m/s²')">Neptuno</button>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="Scripts/script.js"></script>
+</body>
+</html>
